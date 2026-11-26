@@ -1,3 +1,4 @@
+
 def signup(username, password):
     if not username:
         return "Username is required"
@@ -11,3 +12,4 @@ def signup(username, password):
 print(signup("rushi", "123456"))
 print(signup("", "123456"))
 print(signup("rushi", "123"))
+print(signup("student", "abcdef"))
